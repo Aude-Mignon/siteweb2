@@ -1,0 +1,10 @@
+.button-clothes {
+ background-color: #E7C9CA;
+ align-items: center;
+ justify-content: center;
+ padding : 15px 20px;
+ border-radius: 4px;
+ margin: 20px;
+ color: white;
+ font-weigt: bold;
+ font-family: 'Oswald', sans-serif;}

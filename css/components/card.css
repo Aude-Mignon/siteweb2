@@ -1,0 +1,28 @@
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+
+.card { 
+  padding : 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  margin: 15px;
+  flex-basis:350px;
+  }
+
+.card img {
+  width: 200px;
+  border-radius: 6px;
+  }
+
+.card button {
+  padding-left: 0px;
+  font-size: 18px; }

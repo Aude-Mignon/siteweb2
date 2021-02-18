@@ -1,0 +1,32 @@
+nav {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #E7C9CA;
+  top: 0px;
+}
+
+nav a{
+  display:block;
+  text-decoration: none;
+  color: black;
+  padding: 10px 0px;
+}
+
+nav a:hover {
+  color : #007EA7;
+}
+
+nav ul {
+  list-style-type:none;
+  padding: 0px;
+ }
+
+nav li {
+  display: inline-table;
+  width: 15%;
+  text-align: center; }
+
+nav ul: :after {
+  content:"";
+  display: table;
+  clear:both; }

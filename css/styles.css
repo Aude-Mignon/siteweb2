@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Oswald:wght@300&display=swap");
+
+@import url("components/container.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+@import url("components/button-newsletter.css");
+
+@import url("components/form.css");
+
+@import url("components/email.css");
+
+@import url("components/button-clothes.css");
+
+@import url("components/box-lightpink")
+
+@import url("components/container2.css")
+
+@import url("components/box-lightgrey.css")
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+  margin: 0px;
+ }
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #E7C9CA;
+  top: 0px;
+}
+
+nav a{
+  display:block;
+  text-decoration: none;
+  color: black;
+  padding: 10px 0px;
+}
+
+nav a:hover {
+  color : #F4F4F4;
+}
+
+nav ul {
+  list-style-type:none;
+  padding-left: 170px;
+ }
+
+nav li {
+  display: inline-table;
+  width: 15%;
+  text-align: center; }
+
+nav ul: :after {
+  content:"";
+  display: table;
+  clear:both; }
+
+
